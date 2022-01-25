@@ -1,0 +1,67 @@
+/* global styles*/
+.homeLink{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;  
+}
+
+/* style for home-page */
+.background {
+    color: white;
+    background-image: url("/images/winPicture3.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.highlightName{    
+    background-image: linear-gradient(red, yellow);
+    background-repeat: no-repeat;
+    background-size: 200px;
+}
+
+.links a {
+    font-size: 1.5em;
+    text-decoration: none; 
+    color: white;
+}
+
+/* style for about-page */
+.about {
+    position: center;
+    padding-left: 40px;
+}
+
+li{
+    font-size: 20px;
+}
+
+/* style for work-page */
+.schedule-table th, td {
+    border-bottom: 1px solid black;
+    padding: 5px 10px;
+    text-align: center;
+  }
+
+
+/* style for photo-page */
+  .column {
+    float: left;
+    /* width: 33.33%; */
+    padding: 5px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .photo {
+    height: 300px;
+}
+
